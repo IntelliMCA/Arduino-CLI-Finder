@@ -92,8 +92,8 @@ SearchResult SearchAndCountDirectories(const std::wstring &directory, const std:
 int main()
 {
     system("cls");
-    std::wstring startDirectory = L"C:\\";      // Change this to your desired starting directory
-    std::wstring fileName = L"arduino-cli.exe"; // Change this to the file you want to search for
+    std::wstring startDirectory = L"C:\\";      
+    std::wstring fileName = L"arduino-cli.exe";
 
     // Print initial version information
     std::wcout << VERSION_TEXT << std::endl;
